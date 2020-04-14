@@ -1,2 +1,2 @@
 # Website
-Personal website. Using HTML, CSS, 
+Personal website. Using HTML, CSS, and JS.
