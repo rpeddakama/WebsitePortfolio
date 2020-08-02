@@ -122,6 +122,7 @@ section{
  }
 
  .btn:hover::before{
+    
      left: 100%;
  } */
 
@@ -276,4 +277,16 @@ section{
     padding-left: 50px;
     text-align: left;
     background-color: rgb(59, 59, 59);
+}
+
+#teams-text{
+    font-size: 25px;
+    color: #c69963;
+}
+
+.fab{
+    transition: color 1s;
+}
+.fab:hover {
+    color: rgb(219, 145, 7);
 }
