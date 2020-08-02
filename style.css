@@ -9,7 +9,7 @@ body{
 }
 
 a {
-    color: white !important;
+    color: white;
 }
 
 p {
@@ -94,8 +94,8 @@ section{
  }
 
  .hero-text h1{
-     font-family: "Niconne", curisve;
-     color: #c69963;
+     font-family: "teko";
+     color: #d85600;
  }
 
  .btn{
@@ -138,8 +138,8 @@ section{
  }
 
  .section-heading h1{
-     font-family: 'Niconne', cursive;
-     color: #c69963;
+     font-family: 'teko';
+     color: #d85600;
  }
 
  .about{
@@ -285,8 +285,21 @@ section{
 }
 
 .fab{
+    font-size: 35px;
     transition: color 1s;
 }
+
 .fab:hover {
-    color: rgb(219, 145, 7);
+    color: turquoise;
+}
+
+i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#about-txt{
+    font-size: 25px;
+    font-family: "Niccone";
+    color: black;
 }
