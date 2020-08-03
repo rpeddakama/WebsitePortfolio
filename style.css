@@ -38,7 +38,7 @@ section{
 
  nav{
     background-color: black;
-    padding: 10px 35% 10px 0px;
+    padding: 10px 36% 10px 0px;
     width: 100%;
     font-family: "Courier New";
     text-transform: uppercase;
@@ -110,21 +110,6 @@ section{
     color: white !important;
     background-color: #c6996c;
  }
- /* .btn::before{
-     content: "";
-     position: absolute;
-     top: 0;   
-     left: -100%;
-     widows: 100%;
-     height: 100%;
-     background: linear-gradient(120deg, transparent, rgba(255,255,255, .3), transparent);
-     transition: all 650ms;
- }
-
- .btn:hover::before{
-    
-     left: 100%;
- } */
 
  /* About */
 
@@ -247,6 +232,17 @@ section{
     background-color: rgb(10, 10, 71);
 }
 
+.projects{
+    border-radius: 55px;
+    width: 50%;
+    margin-top: -50px;
+    margin-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: gray;
+}
+
 #main-txt{
     font-size: 40px;
     color: #c69963;
@@ -281,15 +277,20 @@ section{
 
 #teams-text{
     font-size: 25px;
-    color: #c69963;
+    color: white;
+    transition: color 1s;
 }
 
-.fab{
+#teams-text a:hover{
+    color: rgb(207, 1, 1);
+}
+
+.fab, .far{
     font-size: 35px;
     transition: color 1s;
 }
 
-.fab:hover {
+.fab:hover, .far:hover {
     color: turquoise;
 }
 
@@ -299,7 +300,69 @@ i{
 }
 
 #about-txt{
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Niccone";
     color: black;
 }
+
+.bounce {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear; 
+    -o-animation: bounce 0.5s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 0.5s infinite linear;
+    color:000;
+  }
+
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+
+  .projects-text{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white !important;
+    transition: color 1s;
+  }
+
+  .return-btn{
+    color: black; 
+    margin-left: 49%; 
+    margin-top: 20%; 
+    font-size: 50px;
+  }
+
+  .return-btn:hover{
+    color: #007bff;;
+  }
