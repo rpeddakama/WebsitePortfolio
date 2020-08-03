@@ -368,3 +368,24 @@ i{
   .return-btn:hover{
     color: #007bff;;
   }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(16,29,44,.95);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c69963; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+
+  }
