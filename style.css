@@ -12,6 +12,10 @@ a {
     color: white;
 }
 
+#particles-js{
+    margin-bottom: 500px;
+}
+
 p {
     margin: 0;
 }
@@ -23,9 +27,7 @@ section{
  header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
-                url("imgs/bg.png") center no-repeat;
-
+    background-color: rgba(16,29,44,.95);
     background-size: cover;
     position: relative;  
  }
