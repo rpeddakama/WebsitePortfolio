@@ -8,6 +8,10 @@ body{
     background-color: white;
 }
 
+.container{
+    clear: both;
+}
+
 a {
     color: white;
 }
