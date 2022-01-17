@@ -27,6 +27,7 @@ h1, h2, p {
 .container {
     /* height: 100%; */
     /* width: 100%; */
+    animation: transitionIn 1s;
     display: flex;
     flex-direction: column;
 }
@@ -93,11 +94,39 @@ h1, h2, p {
 
 .grow .project-item {
     transition: 1s ease;
-    }
+}
     
-    .grow .project-item:hover{
+.grow .project-item:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 1s ease;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    } 
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
     }
+}
+
+
+.loader {
+    margin: auto;
+    border: 20px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 20px solid #FF7A59;
+    width: 200px;
+    height: 200px;
+    animation: spinner 4s linear infinite;
+  }
+  
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }  
+  }
