@@ -25,14 +25,17 @@ h1, h2, p {
 }
 
 .container {
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     /* margin-top: 20%; */
     display: flex;
     flex-direction: column;
+    /* background-color: orange; */
     justify-content: center;
 }
 
@@ -87,3 +90,14 @@ h1, h2, p {
     transition: 900ms;
     fill: #24fffb;
 }
+
+.grow .project-item {
+    transition: 1s ease;
+    }
+    
+    .grow .project-item:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
