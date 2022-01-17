@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 html, body {
-    margin: 0;
+    margin: 15px;
     padding: 0;
     background-color: #071634;
     font-family: 'Roboto Mono', monospace;
@@ -11,17 +11,68 @@ a {
     text-decoration: none;
 }
 
+h1, h2, p {
+    margin: 0;
+    font-weight: normal;
+}
+
+.white {
+    color: white;
+}
+
+.social-icon-color {
+    fill: #A4C1EB;
+}
+
 .container {
     height: 100%;
     width: 100%;
 }
 
 .title {
-    margin-left: 15px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-banner {
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.project-item {
+    flex-basis: 30.3333%;
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #C4C4C4;
+}
+
+.teams-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: orange; */
 }
 
 .green {
@@ -35,21 +86,4 @@ a {
 .social-icons svg:hover{
     transition: 900ms;
     fill: #24fffb;
-}
-
-h1, h2 {
-    margin: 0;
-    font-weight: normal;
-}
-
-p {
-    margin: 0;
-}
-
-.white {
-    color: white;
-}
-
-.blue-gray {
-    fill: #A4C1EB;
 }
