@@ -16,6 +16,19 @@ h1, h2, p {
     font-weight: normal;
 }
 
+.photo {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+#headshot {
+    border-radius: 50%;
+    max-height: 50%;
+}
+
 .white {
     color: white;
 }
@@ -29,7 +42,7 @@ h1, h2, p {
     /* width: 100%; */
     animation: transitionIn 1s;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .title {
