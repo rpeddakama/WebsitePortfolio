@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/style.css" />
-    <title>Rishi</title>
+    <title>Rishi Peddakama</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         <div class=" content">
         <div class="title">
             <h1 id="name" class="green">Rishi Peddakama.</h1>
-<!--             <p id="words" class="white">Programmer, Researcher, Student</p> -->
+            <p id="words" class="white">Undergrad @ Duke University</p>
             <div class="social-icons">
                 <a href="mailto:rishipeddakama@gmail.com">
                     <svg class="social-icon-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -121,6 +121,72 @@
         </div> -->
     </div>
     </div>
+
+    <!-- Down Arrow Button -->
+    <div class="down-arrow-container">
+        <button class="down-arrow-btn"
+            onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });"
+            aria-label="Scroll to Projects">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 16L6 10H18L12 16Z" fill="#86FE72" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="projects-container">
+        <h1 class="green">Projects</h1>
+        <div class="projects">
+            <div class="project-item">
+                <div class="project-banner">
+                    <a class="project-name" href="https://github.com/rpeddakama/Intelliview"
+                        target="_blank">Intelliview</a>
+                    <img src="static/img/typescript.svg" alt="TypeScript" height="30" class="project-language">
+                </div>
+                <p class="project-description">🔈 AI-Powered Interview Practice Platform</p>
+            </div>
+            <div class="project-item">
+                <div class="project-banner">
+                    <a class="project-name" href="https://github.com/rpeddakama/Rapid-Report"
+                        target="_blank">Rapid-Report</a>
+                    <img src="static/img/javascript.svg" alt="JavaScript" height="30" class="project-language">
+                </div>
+                <p class="project-description">📖 Daily News Without the Reading</p>
+            </div>
+            <div class="project-item">
+                <div class="project-banner">
+                    <a class="project-name" href="https://github.com/rpeddakama/Buckistly" target="_blank">Buckistly</a>
+                    <img src="static/img/dart.svg" alt="Dart" height="30" class="project-language">
+                </div>
+                <p class="project-description">📝 Mobile app that manages your bucket list and searches for deals</p>
+            </div>
+            <div class="project-item">
+                <div class="project-banner">
+                    <a class="project-name" href="https://github.com/rpeddakama/Bandit-Learning-Research"
+                        target="_blank">Bandit-Learning-Research</a>
+                    <img src="static/img/python.svg" alt="Jupyter Notebook" height="30" class="project-language">
+                </div>
+                <p class="project-description">🤖 Research on novel multi-armed bandit strategies</p>
+            </div>
+            <div class="project-item">
+                <div class="project-banner">
+                    <a class="project-name" href="https://github.com/hack-duke/2025.hackduke.org"
+                        target="_blank">2025.hackduke.org</a>
+                    <img src="static/img/javascript.svg" alt="JavaScript" height="30" class="project-language">
+                </div>
+                <p class="project-description">HackDuke 2025 website</p>
+            </div>
+            <div class="project-item">
+                <div class="project-banner">
+                    <a class="project-name" href="https://github.com/rjawesome/Infinity-Judge"
+                        target="_blank">Infinity-Judge</a>
+                    <img src="static/img/typescript.svg" alt="TypeScript" height="30" class="project-language">
+                </div>
+                <p class="project-description">Online judge platform</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Projects Section -->
 
     <!-- <script src="static/js/index.js"></script> -->
 </body>
